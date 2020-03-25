@@ -19,3 +19,5 @@ Please report any feedback to our `GitHub repository
 <https://github.com/poldracklab/fmriprep>`_ and do not
 forget to `credit <https://fmriprep.readthedocs.io/en/latest/citing.html>`_ all
 the authors of software that fMRIPrep uses.
+
+This has been modified to run as a cron job without interactive shell Docker arg.
