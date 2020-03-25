@@ -367,7 +367,7 @@ def main():
                          stdout=subprocess.PIPE)
     docker_version = ret.stdout.decode('ascii').strip()
 
-    command = ['docker', 'run', '--rm', '-it', '-e',
+    command = ['docker', 'run', '--rm', '-e',
                'DOCKER_VERSION_8395080871=%s' % docker_version]
 
     # Patch working repositories into installed package directories
